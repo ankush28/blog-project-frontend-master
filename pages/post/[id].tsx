@@ -42,9 +42,9 @@ const postDetail = () => {
         <p className="text-gray-400">
           {dayjs(post?.createdAt).fromNow(true)} ago
         </p>
-        <h2 className="capitalize text-gray-800 font-bold text-2xl">
+        <h1 className="capitalize text-gray-800 font-bold text-2xl">
           {post?.title}
-        </h2>
+        </h1>
 
         <div className="flex place-items-center space-x-2">
           <img
